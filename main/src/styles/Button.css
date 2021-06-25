@@ -1,0 +1,14 @@
+.button{
+    height: 7vh;
+    width: 15vw;
+    border-color: #FC9E4F;
+    background-color: #F9ECCC;
+}
+.button>a{
+    color: #8EA8C3;
+    text-decoration: none;
+    font-size: 2vw;
+}
+.button>a:hover{
+    color: #FC9E4F;
+}

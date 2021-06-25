@@ -3,7 +3,7 @@ import Nav from './Nav'
 
 function Home() {
     return (
-        <div>
+        <div className="home-container">
             <Nav 
                 firstTxt='About'
                 firstLink='/about'
