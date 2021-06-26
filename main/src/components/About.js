@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from './Nav';
 import SlowMotionVideoIcon from '@material-ui/icons/SlowMotionVideo';
+import K from '../assets/kandinsky2.jpg';
 import '../styles/About.css';
 // import ReactPlayer from "react-player";
 
@@ -25,6 +26,7 @@ function About() {
                 fontSize="large"/>
             </a>
             <h4>Interview with Red Light Radio</h4>
+            <img src={K} alt="artsy"></img>
             </div>
         </div>
     )
