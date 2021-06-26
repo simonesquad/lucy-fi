@@ -11,7 +11,7 @@ function Contact() {
                 firstLink='/'
                 twoTxt='About'
                 twoLink='/about'
-                threeTxt='Cv'
+                threeTxt='CV'
                 threeLink='/cv'
             />
            <EmailForm 
