@@ -3,6 +3,7 @@
     width: 100vw;
     background-color: #FFFCF2;
     color: #8EA8C3;
+    margin-top: 0;
 }
 .title>h1{
     font-size: 3.75rem;
@@ -10,4 +11,5 @@
 .buttons{
     display: flex;
     justify-content: center;
+    padding-top: 2%;
 }

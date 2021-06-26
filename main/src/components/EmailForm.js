@@ -7,7 +7,7 @@ export default function EmailForm() {
     function sendEmail(e) {
         e.preventDefault();
 //need to create another email service code here***
-    emailjs.sendForm('service_vgyo99a', 'template_kqymnmk', e.target, 'user_jMWnlaeLAc6VuXUX6i7eh')
+    emailjs.sendForm('service_x0xltyg', 'template_kqymnmk', e.target, 'user_jMWnlaeLAc6VuXUX6i7eh')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
