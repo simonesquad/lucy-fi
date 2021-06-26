@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
 import React from 'react';
+import '../styles/EmailForm.css';
 
 export default function EmailForm() {
 
@@ -17,9 +18,7 @@ export default function EmailForm() {
 
     return(
         <div>
-            <div className="container" style={{
-                
-            }}>
+            <div className="container">
             <form onSubmit={sendEmail}>
             <div className="contents">
                 <div className="row pt-5 mx-auto">
@@ -36,7 +35,7 @@ export default function EmailForm() {
                         <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message here" name="message"></textarea>
                     </div>
                     <div className="col-8 pt-2 mx-auto">
-                        <input type="submit" className="btn btn-info" value="Say Hello"></input>
+                        <input type="submit" className="btn btn-info" value="Send It"></input>
                         </div>
                     </div>
                 </div>
