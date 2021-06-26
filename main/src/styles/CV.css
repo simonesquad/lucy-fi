@@ -1,0 +1,16 @@
+.cv-container{
+    height: 200vh;
+    width: 100vw;
+    background-color: #F9ECCC;
+}
+.all-text{
+    display: flex;
+}
+.all-text-left{
+    width: 55vw;
+    padding: 3% 3%;
+}
+.all-text-right{
+    width: 45vw;
+    padding: 3% 3%;
+}

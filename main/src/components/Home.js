@@ -1,6 +1,8 @@
 import React from 'react'
 import Nav from './Nav'
 
+import '../styles/Home.css'
+
 function Home() {
     return (
         <div className="home-container">
@@ -12,7 +14,9 @@ function Home() {
                 threeTxt='Contact'
                 threeLink='/contact'
             />
-            
+            <div className="text">
+                <p></p>
+            </div>
         </div>
     )
 }
