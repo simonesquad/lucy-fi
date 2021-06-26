@@ -1,5 +1,14 @@
 .home-container{
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     background-color: #FFFCF2;
+}
+.home-contents{
+    height: 70vh;
+    width: 40vw;
+    margin-left: 30%;
+}
+.home-contents>img{
+    height: 25h;
+    width: 25vw;
 }
