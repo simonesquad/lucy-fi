@@ -1,8 +1,11 @@
 .main-nav {
-    height: 40vh;
+    height: 30vh;
     width: 100vw;
-    background-color: #F9ECCC;
-    color: #464F51;
+    background-color: #FFFCF2;
+    color: #8EA8C3;
+}
+.title>h1{
+    font-size: 3.75rem;
 }
 .buttons{
     display: flex;

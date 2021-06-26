@@ -9,7 +9,7 @@ function Footer() {
             <div className="social-links">
             <a rel="noreferrer" href="https://www.linkedin.com/in/lucija-fric-b8261a158/" target="_blank">
             <LinkedInIcon 
-                fontSize="small" />
+                fontSize="medium" />
             </a>
             </div>
             

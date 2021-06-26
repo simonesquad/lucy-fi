@@ -1,0 +1,25 @@
+.cv-container{
+    height: 260vh;
+    width: 100vw;
+    background-color: #FFFCF2;
+}
+.goals{
+    width: 70vw;
+    margin-left: 15%;
+}
+.all-text{
+    display: flex;
+    text-align: left;
+}
+.all-text>p{
+    justify-content: left;
+}
+.all-text-left{
+    width: 55vw;
+    padding: 3% 3%;
+    margin-left: 5%;
+}
+.all-text-right{
+    width: 45vw;
+    padding: 3% 3%;
+}

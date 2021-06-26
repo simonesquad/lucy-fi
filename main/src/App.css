@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.2rem;
+  color: #848388;
 }
 
 .App-logo {

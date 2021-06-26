@@ -1,0 +1,49 @@
+.contents{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30vw;
+    height: 45vh;
+    padding: 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 4%;
+}
+.contents input, textarea{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #FC9E4F;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contents input[type="text"],
+.contents input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #eff9f0;
+    background: transparent;
+    outline: none;
+    height: 5vh;
+    color: #FC9E4F;
+    font-size: 1.2vw;
+}
+::placeholder{
+    color:#FC9E4F;
+}
+.contents textarea {
+    border: none;
+    border-bottom: 1px solid #eff9f0;
+    background: transparent;
+    outline: white;
+    color: #FC9E4F;
+    font-size: 1.2vw;
+}
+.contents input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 5vh;
+    color: white;
+    font-size: 1.2vw;
+    background: #8EA8C3;
+    cursor: pointer;
+}
